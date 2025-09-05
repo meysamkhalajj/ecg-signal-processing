@@ -1,2 +1,15 @@
-# ecg-signal-processing
-MATLAB implementation of ECG signal processing and heart rate estimation. Includes baseline wander removal, 50 Hz notch filtering, SNR enhancement, FFT analysis, and autocorrelation-based HR detection. Demonstrates biomedical signal processing techniques for ECG denoising and feature extraction.
+# ECG Signal Processing and Heart Rate Estimation
+
+![MATLAB](https://img.shields.io/badge/MATLAB-R2022b-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
+This repository contains the implementation of my **final project** for the *Biomedical Signal Processing (BSP)* course.  
+The project focuses on **denoising ECG signals** and **estimating heart rate** using MATLAB.  
+
+The main tasks include:
+- Plotting the raw ECG signal
+- Performing FFT analysis
+- Removing low-frequency baseline wander (< 0.5 Hz)
+- Suppressing powerline interference (50 Hz) with a notch filter
+- Increasing the signal-to-noise ratio (SNR) using low-pass filtering
+- Estimating heart rate via autocorrelation analysis
