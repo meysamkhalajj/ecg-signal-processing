@@ -8,7 +8,7 @@ The project focuses on **denoising ECG signals** and **estimating heart rate** u
 
 ## 📈 Raw ECG Signal
 Below is the raw ECG signal before filtering:
-![Raw ECG Signal](raw_ecg_signal.png)
+![Raw ECG Signal](raw_ecg_signal.jpg)
 
 The main tasks include:
 - Plotting the raw ECG signal
